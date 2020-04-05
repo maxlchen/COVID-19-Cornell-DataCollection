@@ -15,6 +15,7 @@ https://www1.nyc.gov/site/doh/covid/covid-19-data-archive.page
 | `date `                     | Date of report, formatted `YYYY-MM-DD`
 | `country_id`                | 2-letter country abbreviation
 | `region_id`                 | 2-letter state abbreviation
+| `subregion`                 | Name of subregion
 | `sex`                       | Sex
 | `age_min`                   | Minimum age (inclusive)
 | `age_max`                   | Maximum age (inclusive)
