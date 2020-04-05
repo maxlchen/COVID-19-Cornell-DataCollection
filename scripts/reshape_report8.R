@@ -34,16 +34,18 @@ sp = sp %>%
 # percent_death, and percent_recovered : the percentage of these reported cases that ended in death/recovery as of the date of this dataset's creation, March 11, 2020
 # avg_time_to_recovery_if_recovered : the mean number of days between onset of COVID-19 and recovery, if recovery has been reported
 # avg_time_to_death_if_death : the mean number of days between onset of COVID-19 and death, if death has been reported
+# avg_time_symptomatic : average difference between number of days between becoming symptomatic and date onset (note: date onset MAY be less than date of becoming aysmptomatic)
 
 agg_sp = sp %>%
   group_by(new_id) %>%
-  # mutate(first_date = min(date_onset, date_symp_prog1, date_symp_prog2, date_symp_prog3, date_symp_prog4, na.rm=TRUE)) %>%
+  mutate(first_date = min(date_onset, date_symp_prog1, date_symp_prog2, date_symp_prog3, date_symp_prog4, na.rm=TRUE)) %>%
   group_by(grouped_age, country) %>%
   summarise(
     reported_cases = n(),
     percent_hospitalized = sum(!is.na(date_hospitalised))/reported_cases,
     percent_death = sum(!is.na(date_death))/reported_cases,
     percent_recovered = sum(!is.na(date_recovered))/reported_cases,
+    avg_time_symptomatic = mean(date_symp_prog1 - date_onset, na.rm=TRUE),
     # avg_time_to_hospitalisation_if_hospitalised = mean(date_hospitalised - first_date, na.rm=TRUE)
     avg_time_to_hospitalisation_if_hospitalised = mean(date_hospitalised - date_onset, na.rm=TRUE),
     avg_time_to_recovery_if_recovered = mean(date_recovered - date_onset, na.rm = TRUE),
@@ -52,4 +54,4 @@ agg_sp = sp %>%
 
 assertthat::assert_that(nrow(sp) == sum(agg_sp$reported_cases))
 
-write.csv(agg_sp, 'aggregate_symptom_progression_report8.csv')
+write.csv(agg_sp, '../data/aggregate_symptom_progression_report8.csv')
