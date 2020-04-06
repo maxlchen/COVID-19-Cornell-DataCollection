@@ -1,0 +1,448 @@
+"","new_id","age","grouped_age","date_onset","time_to_hospitalisation","time_to_death","time_to_recovery","symptoms_at_onset"
+"1","japan001","30s",30,2020-01-03,7,NA,12,"fever"
+"2","japan002","40s",40,2020-01-14,8,NA,NA,"fever"
+"3","japan003","30s",30,2020-01-21,2,NA,NA,"fever;cough"
+"4","japan004","40s",40,2020-01-23,1,NA,NA,"fever"
+"5","japan005","40s",40,2020-01-22,6,NA,15,"fever"
+"6","japan006","60s",60,2020-01-14,11,NA,25,"chills;cough;joint pain"
+"7","japan007","40s",40,2020-01-26,1,NA,NA,"fever;cough"
+"8","japan008","40s",40,2020-01-20,3,NA,9,"fever"
+"9","repat_japan001","50s",50,NA,NA,NA,NA,"fever;runny nose;sore throat"
+"10","japan_asmyp001","40s",40,NA,NA,NA,NA,NA
+"11","japan_asmyp002","50s",50,NA,NA,NA,NA,NA
+"12","japan009","50s",50,2020-01-25,4,NA,23,"fever"
+"13","japan010","30s",30,2020-01-24,6,NA,NA,"fever;cough"
+"14","japan011","20s",20,2020-01-23,NA,NA,NA,"cough"
+"15","japan012","20s",20,2020-01-20,NA,NA,NA,"cough;runny nose"
+"16","japan_asymp003","30s",30,NA,NA,NA,NA,NA
+"17","repat_japan006","50s",50,NA,NA,NA,NA,NA
+"18","repat_japan002","40s",40,NA,NA,NA,NA,"cough;fever"
+"19","repat_japan003","40s",40,2020-01-26,NA,NA,NA,"cough"
+"20","japan_asymp005","30s",30,2020-02-01,NA,NA,NA,NA
+"21","repat_japan004","40s",40,2020-01-02,NA,NA,NA,NA
+"22","japan013","30s",30,2020-01-30,NA,NA,NA,"fever"
+"23","repat_japan005","50s",50,2020-01-31,NA,NA,NA,"fever;cough"
+"24","japan014","50s",50,2020-01-26,0,NA,11,"fever;pneumonia"
+"25","japan015","40s",40,2020-01-24,NA,NA,NA,"cough;fever"
+"26","japan016","20s",20,2020-01-24,7,NA,NA,"fever;cough"
+"27","repat_japan006_duplicate","50s",50,NA,NA,NA,NA,NA
+"28","repat_japan007","20s",20,2020-02-07,NA,NA,NA,"fever;mild pneumonia"
+"29","repat_japan008","40s",40,2020-02-08,NA,NA,NA,"fever"
+"30","repat_japan009","50s",50,2020-02-07,0,NA,NA,"fever;cough"
+"31","japan017","50s",50,NA,NA,NA,NA,NA
+"32","japan018","80s",80,2020-01-22,10,22,NA,"fatigue"
+"33","japan019","70s",70,2020-01-29,8,NA,NA,"fever"
+"34","japan020","50s",50,2020-01-31,10,NA,16,"fever;fatigue"
+"35","japan021","20s",20,2020-02-02,8,NA,NA,"fever"
+"36","japan022","70s",70,2020-02-01,5,27,NA,"cold-like symptoms;vomitting"
+"37","japan023","60s",60,2020-02-05,8,NA,NA,"cough;joint pain"
+"38","japan024","50s",50,2020-02-04,6,NA,NA,"vomitting;diarrhoea"
+"39","japan025","70s",70,2020-01-20,7,NA,24,"fatigue"
+"40","japan026","60s",60,2020-02-03,10,NA,NA,"ili"
+"41","japan027","50s",50,2020-01-31,11,NA,NA,"fever;cough;fatigue"
+"42","japan028","30s",30,2020-02-10,NA,NA,NA,"fever"
+"43","japan029","50s",50,2020-02-04,10,NA,15,"fever"
+"44","japan030","50s",50,2020-02-07,NA,NA,13,"fever"
+"45","japan031","60s",60,NA,NA,NA,NA,NA
+"46","japan_noid1","50s",50,NA,NA,NA,NA,NA
+"47","japan_noid2","60s",60,2020-02-03,14,NA,NA,"fever"
+"48","japan_noid3","50s",50,2020-02-07,9,NA,NA,"fever"
+"49","japan032","40s",40,2020-02-02,10,NA,NA,"cough"
+"50","japan033","60s",60,NA,NA,NA,NA,NA
+"51","japan034","60s",60,2020-02-14,1,NA,NA,"fever;headache"
+"52","japan035","60s",60,2020-02-15,1,NA,NA,"fever"
+"53","japan036","30s",30,2020-02-03,NA,NA,NA,"fever;fatigue"
+"54","japan037","60s",60,NA,NA,NA,NA,NA
+"55","japan038","60s",60,NA,NA,NA,NA,NA
+"56","japan039","40s",40,2020-02-14,3,NA,NA,"fever;vomitting"
+"57","japan040","50s",50,NA,NA,NA,NA,NA
+"58","japan041","80s",80,NA,NA,NA,NA,NA
+"59","japan042","50s",50,2020-02-07,10,NA,NA,"fever"
+"60","japan043","50s",50,2020-02-03,14,NA,NA,"fever"
+"61","japan044","60s",60,2020-02-17,0,NA,NA,"fever;fatigue;pneumonia"
+"62","japan045","60s",60,2020-02-16,1,NA,NA,"fever"
+"63","japan046","30s",30,2020-02-16,1,NA,NA,"fever"
+"64","japan_asymp_waka1","10s",10,NA,NA,NA,NA,NA
+"65","japan047","80s",80,2020-02-09,4,17,NA,"loss of appetite"
+"66","japan048","20s",20,2020-02-07,NA,NA,NA,NA
+"67","japan049","50s",50,2020-02-05,NA,NA,NA,NA
+"68","japan050","60s",60,2020-02-17,1,NA,NA,"fever;cough"
+"69","japan051","80s",80,2020-02-06,0,NA,NA,"coughing blood"
+"70","japan052","70s",70,2020-02-14,-4,NA,NA,"fever;cough"
+"71","japan053","60s",60,2020-02-03,10,NA,NA,"fever"
+"72","japan054","40s",40,2020-02-08,11,NA,NA,"fatigue;muscle pain;joint pain"
+"73","japan055","60s",60,2020-02-03,15,NA,NA,"fever;sore throat"
+"74","japan056","60s",60,2020-02-11,7,NA,NA,"fever"
+"75","japan057","70s",70,2020-02-04,NA,NA,NA,NA
+"76","japan058","70s",70,2020-02-04,NA,NA,NA,NA
+"77","japan059","70s",70,2020-02-03,NA,NA,NA,NA
+"78","japan060","50s",50,2020-02-17,1,NA,NA,"fever;fatigue"
+"79","repat_japan010","50s",50,NA,NA,NA,NA,NA
+"80","japan061","60s",60,2020-02-13,6,NA,NA,"fever"
+"81","japan062","40s",40,2020-02-15,5,NA,NA,"chills;cold sweats;fatigue;muscle pain;joint pain"
+"82","japan063","70s",70,2020-02-14,6,NA,NA,"fever"
+"83","japan064","80s",80,2020-02-06,14,NA,NA,"fever"
+"84",NA,NA,NA,NA,NA,NA,NA,NA
+"85",NA,NA,NA,NA,NA,NA,NA,NA
+"86","japan067","80s",80,2020-02-19,0,NA,NA,"fever"
+"87","japan068","80s",80,2020-02-12,NA,NA,NA,"fever"
+"88","japan069","60s",60,2020-02-17,3,NA,NA,"chills"
+"89","japan070","<10",0,2020-02-15,4,NA,NA,"fever"
+"90","japan071","10s",10,2020-02-18,1,NA,NA,"fever"
+"91","japan072","40s",40,2020-02-16,NA,NA,NA,"fever"
+"92","japan073","50s",50,2020-02-16,4,NA,NA,"fever"
+"93","repat_japan011","<10",0,2020-02-10,11,NA,NA,"fever;cough"
+"94","japan074","50s",50,2020-02-10,NA,NA,NA,NA
+"95","japan075","70s",70,2020-02-01,NA,NA,NA,NA
+"96","japan076","50s",50,2020-02-04,NA,NA,NA,NA
+"97","japan077","60s",60,2020-02-06,15,NA,NA,"fatigue;loss of appetite"
+"98","japan078","80s",80,2020-02-18,1,NA,NA,"loss of appetite;difficulty walking"
+"99","japan079","70s",70,2020-02-19,2,NA,NA,"fever;cough"
+"100","japan080","20s",20,2020-02-20,0,NA,NA,"fever;cough;breathing difficulties"
+"101","japan081","20s",20,2020-02-17,4,NA,NA,"cough"
+"102","japan082","50s",50,2020-02-20,1,NA,NA,"cough"
+"103","japan083","60s",60,2020-02-15,6,NA,NA,"fatigue;cold-like symptoms"
+"104","japan084","40s",40,2020-02-02,20,NA,NA,"fever"
+"105","japan085","60s",60,2020-02-12,7,NA,NA,"nausea"
+"106","japan086","50s",50,2020-02-16,5,NA,NA,"fatigue;joint pain;fever"
+"107","japan087","70s",70,2020-02-06,4,NA,NA,"cough;sputum"
+"108","japan088","80s",80,2020-02-03,0,24,NA,"breathing difficulties"
+"109","japan089","70s",70,2020-02-16,NA,NA,NA,"fever;cough;fatigue"
+"110","japan090","50s",50,2020-02-17,NA,NA,NA,NA
+"111","japan091","60s",60,2020-02-10,9,NA,NA,"fever"
+"112","japan092","50s",50,2020-02-15,NA,NA,NA,"fatigue"
+"113","japan093","10s",10,2020-02-06,NA,NA,NA,"fever"
+"114","japan094","50s",50,2020-02-13,NA,NA,NA,"sore throat"
+"115","japan095","60s",60,2020-02-12,NA,NA,NA,NA
+"116","japan096","60s",60,2020-02-19,NA,NA,NA,"fever;runny nose;headache"
+"117","japan097","40s",40,2020-02-20,NA,NA,NA,"fever"
+"118","japan098","60s",60,2020-02-20,2,NA,NA,"fever;cough;fatigue"
+"119","japan099","60s",60,2020-02-20,2,NA,NA,"fever"
+"120","japan100","60s",60,2020-02-21,NA,NA,NA,"fever"
+"121","japan101","50s",50,2020-02-16,5,NA,NA,"fever"
+"122","japan102","50s",50,2020-02-17,5,NA,NA,"fever;breathing difficulties"
+"123","japan103","70s",70,NA,NA,NA,NA,NA
+"124","japan104","70s",70,2020-02-22,1,NA,NA,"fever"
+"125","japan105","70s",70,2020-02-21,2,NA,NA,"fever;cough"
+"126","japan106","40s",40,2020-02-12,9,NA,NA,"joint pain;muscle pain"
+"127","japan107","30s",30,NA,NA,NA,NA,NA
+"128","japan108","60s",60,NA,NA,NA,NA,NA
+"129","japan109","20s",20,NA,NA,NA,NA,NA
+"130","japan110","70s",70,NA,NA,NA,NA,NA
+"131","japan111","30s",30,NA,NA,NA,NA,NA
+"132","japan112","80s",80,NA,NA,NA,NA,NA
+"133","japan113","40s",40,NA,NA,NA,NA,NA
+"134","japan114","20s",20,NA,NA,NA,NA,NA
+"135",NA,NA,NA,NA,NA,NA,NA,NA
+"136",NA,NA,NA,NA,NA,NA,NA,NA
+"137","japan117","60s",60,2020-02-16,7,NA,NA,"fever;sore throat"
+"138","japan118","70s",70,2020-02-21,NA,NA,NA,"fever;cough"
+"139","japan119","50s",50,2020-02-14,NA,NA,NA,"chills"
+"140","japan120","20s",20,2020-02-18,NA,NA,NA,"fever"
+"141","japan121","50s",50,2020-02-17,NA,NA,NA,"cough"
+"142","japan122","50s",50,2020-02-14,9,NA,NA,"fever"
+"143","japan123","40s",40,2020-02-13,NA,NA,NA,NA
+"144","japan124","50s",50,2020-02-19,NA,NA,NA,NA
+"145","japan125","30s",30,2020-02-18,NA,NA,NA,NA
+"146","japan126","50s",50,2020-02-20,NA,NA,NA,"cough;sputum;sore throat"
+"147","japan127","20s",20,2020-02-21,NA,NA,NA,"cough;sneezing"
+"148","japan128","20s",20,2020-02-19,NA,NA,NA,"fever"
+"149","NA1","60s",60,2020-02-20,4,NA,NA,"fatigue"
+"150","NA2","50s",50,2020-02-20,NA,NA,NA,"sore throat"
+"151","NA3","60s",60,2020-02-25,NA,NA,NA,"fever"
+"152","NA4","60s",60,2020-02-17,NA,NA,NA,"fever"
+"153","previously asymptomatic","50s",50,NA,NA,NA,NA,NA
+"154","NA5","70s",70,2020-02-20,1,NA,NA,"fever"
+"155","NA6","70s",70,2020-02-23,NA,NA,NA,"fever;cough"
+"156","NA7","40s",40,2020-02-23,NA,NA,NA,"fever;runny nose"
+"157","NA8","60s",60,NA,NA,NA,NA,NA
+"158","NA9","60s",60,2020-02-22,4,NA,NA,"fever"
+"159","NA10","50s",50,2020-02-22,3,NA,NA,"fever"
+"160","NA11","70s",70,2020-02-12,13,NA,NA,"fever"
+"161","NA12","20s",20,2020-02-10,14,NA,NA,"fatigue"
+"162","NA13","20s",20,2020-02-19,NA,NA,NA,"sore throat"
+"163","NA14","70s",70,2020-02-23,NA,6,NA,"already in hospital;fever;pneumonia;mechanical ventilator"
+"164","NA16","70s",70,2020-02-17,7,NA,NA,"fever;fatigue"
+"165","NA17","70s",70,2020-02-16,10,NA,NA,"fever;cough"
+"166","NA18","40s",40,2020-02-24,1,NA,NA,"fever;cough"
+"167","NA19","60s",60,NA,NA,NA,NA,NA
+"168","NA20","80s",80,NA,NA,NA,NA,NA
+"169","NA21","40s",40,2020-02-19,NA,NA,NA,"sore throat;chest pains"
+"170","NA22","80s",80,2020-02-22,NA,NA,NA,NA
+"171","NA23","70s",70,2020-02-13,NA,NA,NA,NA
+"172","NA24","70s",70,2020-02-14,NA,NA,NA,NA
+"173","NA25","50s",50,2020-02-24,NA,NA,NA,"fever;sore throat"
+"174","NA26","60s",60,2020-02-25,NA,NA,NA,"fever"
+"175","NA27","70s",70,2020-02-24,NA,NA,NA,"fever;cough;sore throat"
+"176","NA28","70s",70,2020-02-23,NA,NA,NA,"fever;cough;fatigue"
+"177","NA29","70s",70,2020-02-24,NA,NA,NA,"fever;cough;sore throat;runny nose"
+"178","NA30","50s",50,NA,NA,NA,NA,NA
+"179","NA31","50s",50,2020-02-14,11,NA,NA,"fever;fatigue"
+"180","NA32","50s",50,2020-02-23,NA,NA,NA,"sore throat;chills"
+"181","NA33","50s",50,2020-02-16,11,NA,NA,"fever"
+"182","NA34","50s",50,2020-02-20,6,NA,NA,"fever;headache;fatigue"
+"183","NA35","60s",60,2020-02-10,NA,NA,NA,NA
+"184","NA36","40s",40,2020-02-20,7,NA,NA,"fever;cough"
+"185","NA37","50s",50,2020-02-25,2,NA,NA,"fever"
+"186","NA38","50s",50,2020-02-25,2,NA,NA,"fever;cough;fatigue"
+"187","NA39","30s",30,2020-02-16,8,NA,NA,"sore throat"
+"188","NA40","70s",70,2020-02-16,8,NA,NA,"fatigue"
+"189","NA41","60s",60,2020-02-18,6,NA,NA,"fever"
+"190","NA42","40s",40,2020-02-15,NA,NA,NA,"vomitting"
+"191","NA43","40s",40,2020-02-21,NA,NA,NA,"fever"
+"192","NA44","<10",0,2020-02-21,NA,NA,NA,NA
+"193","NA45","30s",30,2020-02-24,NA,NA,NA,"fever;headache;fatigue;joint pain"
+"194","NA46","<10",0,2020-02-21,6,NA,NA,"fever;cough"
+"195","NA47","80s",80,2020-02-24,NA,NA,NA,"fever;cough"
+"196","NA48","30s",30,2020-02-20,7,NA,NA,"cough"
+"197","NA49","80s",80,2020-02-22,2,NA,NA,"cough"
+"198","NA50","60s",60,2020-02-22,5,NA,NA,"fever;sore throat;fatigue"
+"199","NA51","40s",40,2020-02-24,NA,NA,NA,"cough;sore throat"
+"200","NA52","60s",60,2020-02-26,NA,NA,NA,"fever"
+"201","NA53","60s",60,2020-02-26,NA,NA,NA,"fever;cough;headache"
+"202","NA54","30s",30,NA,NA,NA,NA,NA
+"203","NA55","40s",40,2020-02-18,NA,NA,NA,"chills;headache;fatigue;fever"
+"204","NA56","20s",20,2020-02-20,NA,NA,NA,"fever"
+"205","NA57","60s",60,NA,NA,NA,NA,NA
+"206","NA58","80s",80,2020-02-21,NA,NA,NA,"cough;sputum"
+"207","NA59","<10",0,2020-02-18,NA,NA,NA,"fever"
+"208","NA60","80s",80,2020-02-25,1,NA,NA,"fever"
+"209","NA61","60s",60,2020-02-19,9,NA,NA,"cough"
+"210","NA62","60s",60,2020-02-21,NA,NA,NA,"fever"
+"211","NA63","60s",60,2020-02-18,7,NA,NA,"chills"
+"212","NA64","60s",60,2020-02-19,NA,NA,NA,"cough;sputum"
+"213","NA65","40s",40,2020-02-12,6,NA,NA,"fever"
+"214","NA66","70s",70,2020-02-20,4,NA,NA,"fever"
+"215","NA67","60s",60,NA,NA,NA,NA,NA
+"216","NA68","60s",60,2020-02-20,8,NA,NA,"fever;cough"
+"217","NA69","60s",60,2020-02-18,10,NA,NA,"fever"
+"218","NA70","50s",50,NA,NA,NA,NA,NA
+"219","NA71","60s",60,2020-02-27,NA,NA,NA,"fever"
+"220","NA72","40s",40,2020-02-19,8,NA,NA,"sore throat;cough"
+"221","NA73","<10",0,NA,NA,NA,NA,NA
+"222","NA74","30s",30,2020-02-13,16,NA,NA,"sore throat"
+"223","NA75","60s",60,2020-02-25,NA,NA,NA,"fever;cough"
+"224","NA76","70s",70,2020-02-28,0,NA,NA,"fever;sore throat"
+"225","NA77","20s",20,2020-02-24,NA,NA,NA,NA
+"226","NA78","90s",90,2020-02-20,7,NA,NA,"cough;runny nose"
+"227","NA79","60s",60,2020-02-21,5,NA,NA,"cough;fatigue;joint pain"
+"228","NA80","30s",30,2020-02-19,9,NA,NA,"fever;headache;fatigue"
+"229","NA81","20s",20,2020-02-21,8,NA,NA,NA
+"230","NA82","70s",70,2020-02-23,0,NA,NA,"fever;cough;vomitting;pneumonia"
+"231","japan_noid4","60s",60,2020-02-15,1,NA,NA,"fever"
+"232","tokyotaxi001","80s",80,NA,NA,NA,NA,NA
+"233","tokyotaxi002","50s",50,NA,NA,NA,NA,NA
+"234","tokyotaxi003","50s",50,NA,NA,NA,NA,NA
+"235","tokyotaxi004","70s",70,2020-01-29,8,NA,NA,"fever"
+"236","tokyotaxi005","70s",70,NA,NA,NA,NA,NA
+"237","tokyotaxi006","40s",40,NA,NA,NA,NA,NA
+"238","tokyotaxi007","60s",60,NA,NA,NA,NA,NA
+"239","tokyotaxi008","60s",60,NA,NA,NA,NA,NA
+"240","tokyotaxi009","30s",30,NA,NA,NA,NA,NA
+"241","tokyotaxi_asymp001","60s",60,NA,NA,NA,NA,NA
+"242","tokyo_1","50s",50,2020-02-04,6,NA,NA,"vomitting;diarrhoea"
+"243","tokyo_2","70s",70,2020-01-20,7,NA,NA,"fatigue"
+"244","tokyo_4","60s",60,2020-02-06,7,NA,NA,"fever;fatigue"
+"245","singapore001","66",60,2020-01-20,2,NA,NA,"fever;cough"
+"246","singapore002","53",50,2020-01-21,1,NA,17,"fever;cough"
+"247","singapore003","37",30,2020-01-23,0,NA,NA,NA
+"248","singapore004","36",30,2020-01-23,1,NA,20,"cough"
+"249","singapore005","56",50,2020-01-24,2,NA,25,NA
+"250","singapore006","56",50,2020-01-25,1,NA,NA,NA
+"251","singapore007","35",30,2020-01-24,0,NA,11,NA
+"252","singapore008","56",50,2020-01-24,3,NA,25,NA
+"253","singapore009","56",50,2020-01-24,3,NA,NA,NA
+"254","singapore010","56",50,2020-01-21,7,NA,NA,NA
+"255","singapore011","31",30,2020-01-27,0,NA,NA,NA
+"256","singapore012","37",30,2020-01-26,NA,NA,17,NA
+"257","singapore013","73",70,2020-01-28,0,NA,NA,NA
+"258","singapore014","31",30,2020-01-28,2,NA,20,NA
+"259","singapore015","47",40,2020-01-30,0,NA,18,"fever"
+"260","singapore016","38",30,2020-01-23,6,NA,NA,NA
+"261","singapore017","47",40,2020-01-30,0,NA,NA,"fever"
+"262","singapore018","31",30,2020-01-30,1,NA,NA,NA
+"263","singapore019","28",20,2020-01-29,5,NA,NA,"sore throat;fever"
+"264","singapore020","48",40,2020-01-25,9,NA,NA,NA
+"265","singapore021","44",40,2020-02-02,1,NA,16,NA
+"266","singapore022","41",40,NA,NA,NA,NA,NA
+"267","singapore023","17",10,NA,NA,NA,NA,NA
+"268","singapore024","32",30,2020-01-30,4,NA,16,"fever"
+"269","singapore025","40",40,2020-01-24,10,NA,19,"fever"
+"270","singapore026","42",40,NA,NA,NA,NA,NA
+"271","singapore027","47",40,2020-02-01,3,NA,NA,NA
+"272","singapore028","0.5",0,NA,NA,NA,NA,NA
+"273","singapore029","41",40,2020-01-28,6,NA,15,"fever"
+"274","singapore030","27",20,2020-01-21,16,NA,24,"fever"
+"275","singapore031","53",50,2020-01-23,9,NA,25,NA
+"276","singapore032","42",40,2020-02-02,3,NA,NA,NA
+"277","singapore033","39",30,2020-01-30,3,NA,NA,NA
+"278","singapore034","40",40,2020-01-27,10,NA,16,NA
+"279","singapore035","64",60,2020-01-30,7,NA,NA,NA
+"280","singapore036","38",30,2020-01-24,11,NA,NA,NA
+"281","singapore037","53",50,2020-01-30,7,NA,NA,NA
+"282","singapore038","52",50,2020-02-03,4,NA,15,NA
+"283","singapore039","51",50,2020-01-29,8,NA,18,NA
+"284","singapore040","36",30,2020-01-30,8,NA,13,NA
+"285","singapore041","71",70,2020-02-01,6,NA,NA,NA
+"286","singapore042","39",30,2020-02-01,6,NA,NA,NA
+"287","singapore043","54",50,2020-01-30,8,NA,NA,NA
+"288","singapore044","37",30,2020-01-31,6,NA,NA,NA
+"289","singapore045","2",0,NA,NA,NA,NA,NA
+"290","singapore046","35",30,2020-02-05,4,NA,NA,NA
+"291","singapore047","39",30,2020-02-06,4,NA,NA,NA
+"292","singapore048","34",30,2020-02-01,NA,NA,16,NA
+"293","singapore049","46",40,2020-02-03,7,NA,NA,NA
+"294","singapore050","62",60,2020-02-07,4,NA,NA,NA
+"295","singapore051","48",40,2020-02-04,7,NA,NA,NA
+"296","singapore052","37",30,2020-02-07,4,NA,NA,NA
+"297","singapore053","54",50,2020-02-10,2,NA,NA,NA
+"298","singapore054","54",50,NA,NA,NA,NA,NA
+"299","singapore055","30",30,NA,NA,NA,NA,NA
+"300","singapore056","30",30,NA,NA,NA,NA,NA
+"301","singapore057","26",20,NA,NA,NA,NA,NA
+"302","singapore058","55",50,NA,NA,NA,NA,NA
+"303","singapore059","59",50,2020-02-07,5,NA,NA,NA
+"304","singapore060","51",50,2020-02-08,0,NA,NA,NA
+"305","singapore061","57",50,2020-02-06,6,NA,NA,NA
+"306","singapore062","44",40,2020-02-09,3,NA,NA,NA
+"307","singapore063","54",50,2020-02-10,3,NA,NA,NA
+"308","singapore064","50",50,2020-02-03,10,NA,NA,NA
+"309","singapore065","61",60,2020-02-12,0,NA,5,NA
+"310","singapore066","28",20,2020-01-29,14,NA,NA,NA
+"311","singapore067","56",50,2020-02-09,4,NA,NA,NA
+"312","singapore068","79",70,2020-01-30,15,NA,NA,NA
+"313","singapore069","26",20,2020-02-11,3,NA,NA,NA
+"314","singapore070","27",20,2020-02-03,11,NA,NA,NA
+"315","singapore071","25",20,2020-02-01,14,NA,NA,NA
+"316","singapore072","40",40,2020-02-10,4,NA,NA,NA
+"317","singapore073","43",40,2020-02-09,5,NA,NA,NA
+"318","singapore074","29",20,2020-02-12,3,NA,NA,NA
+"319","singapore075","71",70,NA,NA,NA,NA,NA
+"320","singapore076","1",0,NA,NA,NA,NA,NA
+"321","singapore077","35",30,2020-02-10,2,NA,NA,NA
+"322","singapore078","57",50,2020-02-09,8,NA,NA,NA
+"323","singapore079","35",30,2020-02-12,5,NA,NA,NA
+"324","singapore080","38",30,NA,NA,NA,NA,NA
+"325","singapore081","50",50,NA,NA,NA,NA,NA
+"326","southkorea001","36",30,2020-01-18,NA,NA,19,"fever;headache"
+"327","southkorea002","55",50,2020-01-10,13,NA,26,"cough;sore throat"
+"328","southkorea003","54",50,2020-01-22,3,NA,21,"fever;chill"
+"329","southkorea004","55",50,2020-01-21,4,NA,19,"cold symptoms"
+"330","southkorea005","33",30,NA,NA,NA,NA,"cough"
+"331","southkorea006","55",50,NA,NA,NA,NA,NA
+"332","southkorea007","28",20,2020-01-26,4,NA,20,"mild cough"
+"333","southkorea008","62",60,2020-01-22,NA,NA,21,"muscle pain"
+"334","southkorea009","28",20,NA,NA,NA,NA,NA
+"335","southkorea010","52",50,2020-01-29,NA,NA,NA,"headache"
+"336","southkorea011","25",20,2020-01-30,NA,NA,11,"chills"
+"337","southkorea012","49",40,NA,NA,NA,NA,NA
+"338","southkorea013","28",20,NA,NA,NA,NA,NA
+"339","southkorea014","40",40,NA,NA,NA,NA,NA
+"340","southkorea015","43",40,NA,NA,NA,NA,NA
+"341","southkorea016","42",40,2020-01-25,9,NA,NA,"chills"
+"342","southkorea017","38",30,NA,NA,NA,NA,NA
+"343","southkorea018","21",20,NA,NA,NA,NA,NA
+"344","southkorea019","36",30,NA,NA,NA,NA,NA
+"345","southkorea020","41",40,2020-02-05,NA,NA,NA,"sore throat"
+"346","southkorea021","59",50,2020-02-05,NA,NA,NA,"sore throat"
+"347","southkorea022","46",40,NA,NA,NA,NA,NA
+"348","southkorea023","58",50,2020-02-02,NA,NA,NA,"fever"
+"349","southkorea024","28",20,NA,NA,NA,NA,"sore throat"
+"350","southkorea025","74",70,2020-02-06,NA,NA,NA,"fever;sore throat;cough"
+"351","southkorea026","51",50,2020-02-08,NA,NA,NA,"sore throat"
+"352","southkorea027","37",30,2020-01-24,NA,NA,NA,"cough"
+"353","southkorea028","30",30,NA,NA,NA,NA,NA
+"354","southkorea029","81",80,2020-02-05,NA,NA,NA,"cough;fever"
+"355","hk001","39",30,2020-01-21,0,NA,37,"fever;nasal congestion"
+"356","hk002","56",50,2020-01-18,3,NA,40,"fever"
+"357","hk003","62",60,2020-01-20,4,NA,NA,"fever;cough"
+"358","hk004","62",60,2020-01-23,0,NA,NA,"fever"
+"359","hk005","63",60,2020-01-23,0,NA,28,"cough"
+"360","hk006","47",40,2020-01-20,5,NA,30,"fever"
+"361","hk007","68",60,2020-01-21,4,NA,NA,"fever;cough"
+"362","hk008","64",60,2020-01-25,0,NA,NA,"fever"
+"363","hk009","73",70,NA,NA,NA,NA,NA
+"364","hk010","72",70,NA,NA,NA,NA,NA
+"365","hk011","37",30,2020-01-28,2,NA,25,"cough"
+"366","hk012","75",70,2020-01-22,2,NA,NA,"cough;shortness of breath"
+"367","hk013","39",30,2020-01-29,NA,6,NA,"myalgia"
+"368","hk014","80",80,2020-01-19,11,NA,31,"cough"
+"369","hk015","72",70,2020-02-01,0,NA,NA,"fever;cough"
+"370","hk016","64",60,NA,NA,NA,NA,NA
+"371","hk017","60",60,NA,NA,NA,NA,NA
+"372","hk018","25",20,NA,NA,NA,NA,NA
+"373","hk019","28",20,2020-01-30,5,NA,NA,"cough;sore throat"
+"374","hk020","56",50,2020-02-04,0,NA,NA,"fever"
+"375","hk021","56",50,2020-01-30,NA,NA,NA,"fever;cough;sputum;sore throat"
+"376","hk022","55",50,2020-02-01,4,NA,26,"sore throat"
+"377","hk023","63",60,2020-01-26,10,NA,NA,"cough;malaise"
+"378","hk024","65",60,2020-01-28,8,NA,NA,"fever;cough"
+"379","hk025","58",50,2020-02-04,2,NA,NA,"fever;cough"
+"380","hk026","42",40,2020-02-03,NA,NA,NA,"fever;cough"
+"381","hk027","24",20,2020-01-30,9,NA,17,"fever;cough"
+"382","hk028","70",70,2020-01-30,9,NA,28,"cough;chill;shortness of breath"
+"383","hk029","91",90,2020-01-29,NA,NA,NA,NA
+"384","hk030","68",60,2020-02-01,NA,NA,NA,NA
+"385","hk031","57",50,2020-01-29,NA,NA,24,NA
+"386","hk032","22",20,2020-01-30,NA,NA,23,NA
+"387","hk033","50",50,2020-02-05,NA,NA,NA,NA
+"388","hk034","25",20,2020-02-02,NA,NA,NA,NA
+"389","hk035","51",50,2020-01-28,NA,NA,NA,NA
+"390","hk036","23",20,2020-02-07,NA,NA,NA,NA
+"391","hk037","55",50,2020-01-30,10,NA,28,"fever;cough;runny nose"
+"392","hk038","69",60,2020-01-30,10,NA,NA,"cough"
+"393","hk039","63",60,2020-01-30,NA,NA,23,"cough"
+"394","hk040","86",80,2020-01-28,NA,NA,NA,"cough"
+"395","hk041","52",50,2020-02-08,1,NA,NA,"cough;sore throat"
+"396","hk042","62",60,2020-02-03,6,NA,NA,"cough"
+"397","hk043","59",50,2020-02-02,8,NA,25,"fever;cough;shortness of breath"
+"398","hk044","60",60,2020-02-01,9,NA,26,"cough"
+"399","hk045","71",70,2020-02-05,5,NA,NA,"cough;fever;shortness of breath"
+"400","hk046","75",70,2020-02-03,NA,NA,NA,"fever;cough"
+"401","hk047","66",60,2020-01-31,10,NA,27,"sore throat"
+"402","hk048","37",30,2020-02-02,NA,NA,25,"fever;cough;sore throat"
+"403","hk049","37",30,2020-01-30,11,NA,NA,"fever;cough"
+"404","hk050","51",50,2020-02-03,7,NA,NA,"fever"
+"405","hk051","43",40,2020-01-29,14,NA,NA,"cough"
+"406","hk052","67",60,2020-01-31,12,NA,22,"cough"
+"407","hk053","37",30,2020-02-08,4,NA,14,"fever"
+"408","hk054","41",40,2020-02-03,10,NA,NA,"cough"
+"409","hk055","70",70,2020-02-02,10,17,NA,"malaise;shortness of breath;cough"
+"410","hk056","61",60,2020-02-10,3,NA,17,"cough;epigastric pain"
+"411","hk057","54",50,2020-02-07,8,NA,NA,"fever;cough"
+"412","hk058","69",60,2020-02-08,8,NA,NA,"cough"
+"413","hk059","45",40,2020-02-12,4,NA,NA,"fever;sore throat"
+"414","hk060","46",40,2020-02-08,8,NA,19,"runny nose"
+"415","hk061","32",30,2020-02-02,NA,NA,NA,NA
+"416","hk062","58",50,2020-02-11,NA,NA,NA,NA
+"417","hk063","83",80,2020-02-14,NA,NA,NA,"runny nose"
+"418","hk064","68",60,2020-02-12,NA,NA,NA,"cough"
+"419","hk065","70",70,2020-02-12,NA,NA,NA,"cough"
+"420","hk066","75",70,2020-01-25,NA,NA,NA,"cough;dyspnea"
+"421","hk067","38",30,2020-02-10,9,NA,NA,"fever;cough"
+"422","hk068","58",50,2020-02-08,11,NA,NA,"fever;cough"
+"423","hk069","48",40,2020-02-18,NA,NA,NA,"fever;cough"
+"424","hk070","96",90,2020-02-13,NA,NA,NA,"fever;cough"
+"425","hk071","68",60,2020-02-20,2,NA,NA,"fever;cough"
+"426","hk072","62",60,2020-02-10,12,NA,NA,"fever;cough"
+"427","hk073","80",80,2020-02-08,14,NA,NA,"cough;sore throat"
+"428","hk074","76",70,2020-02-13,9,NA,NA,"muscle pain;fever"
+"429","hk075","35",30,2020-02-19,3,NA,NA,"fever;cough"
+"430","hk076","57",50,2020-02-08,15,NA,NA,"sore throat"
+"431","hk077","68",60,2020-02-19,4,NA,NA,"cough"
+"432","hk078","59",50,2020-02-24,NA,NA,NA,"fever;headache"
+"433","hk079","58",50,2020-02-04,NA,NA,NA,"sore throat"
+"434","hk080","57",50,NA,NA,NA,NA,NA
+"435","hk081","57",50,NA,NA,NA,NA,NA
+"436","hk082","33",30,2020-02-20,4,NA,NA,"fever"
+"437","hk083","55",50,2020-02-17,7,NA,NA,"cough"
+"438","hk084","24",20,NA,NA,NA,NA,NA
+"439","hk085","60",60,2020-02-12,12,NA,NA,"cough"
+"440","hk086","49",40,2020-02-18,5,NA,NA,"cough;sore throat"
+"441","hk087","21",20,2020-02-12,NA,NA,NA,"fever"
+"442","hk088","16",10,2020-02-17,NA,NA,NA,"runny nose"
+"443","hk089","80",80,2020-02-25,0,NA,NA,"fever;cough"
+"444","hk090","29",20,2020-02-16,9,NA,NA,"fever"
+"445","hk091","26",20,2020-02-20,4,NA,NA,"fever;cough"
+"446","hk092","70",70,2020-02-13,13,NA,NA,"cough"
+"447","hk093","89",80,2020-02-25,1,NA,NA,"cough"

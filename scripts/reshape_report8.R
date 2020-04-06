@@ -25,6 +25,17 @@ sp = sp %>%
     date_recovered = as.Date(date_recovered, format= "%d/%m/%Y")
   )
 
+cleaned_sp = sp %>%
+  mutate(
+    time_to_hospitalisation = date_hospitalised - date_onset,
+    time_to_recovery = date_recovered - date_onset,
+    time_to_death = date_death - date_onset
+  ) %>%
+  select(
+    new_id, age, grouped_age, date_onset, time_to_hospitalisation, time_to_death, time_to_recovery, symptoms_at_onset
+  )
+write.csv(cleaned_sp, '../data/individual_cleaned_symptom_progression_report8.csv')
+
 # agg_sp : dataframe containing symptom progression aggregated by Age Group and Country, with the following variables:
 # grouped_age : the age group that has been aggregated (i.e. 0: 0-9, 10: 10-19, 20: 20-29, etc.)
 # country : the country being reported
