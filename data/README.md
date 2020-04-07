@@ -43,7 +43,7 @@ https://www.ecdc.europa.eu/en/publications-data/download-todays-data-geographic-
 | `countryterritoryCode`      | Country's Territory Code
 | `popData2018`               | Population as of 2018
 
-**ICNARC COVID-19 Report*
+**ICNARC COVID-19 Report**
 
 https://www.icnarc.org/About/Latest-News/2020/04/04/Report-On-2249-Patients-Critically-Ill-With-Covid-19
 
