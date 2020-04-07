@@ -135,3 +135,31 @@ Pdf file has more data than what is on table, but the table has the more importa
 | `Non-survivor`                                  | Average # of days patient stayed and then died
 | `Duration of advanced respiratory support`      | Average # of days patient received advanced respiratory support
 | `Duration of total respiratory support`         | Average # of days patient received advanced + basic respiratory support
+
+## **Governor Cuomo Daily Briefing Data**
+Sources: 
+* https://www.news10.com/wp-content/uploads/sites/64/2020/04/04.05.20-COVID19-Briefing.pdf
+* https://www.youtube.com/channel/UCLHU6ECVSZbzgcpd113Jk4Q
+
+
+Data scraped from NY Governor Andrew Cuomo's daily briefings.
+All data is for the state of New York, unless explictly stated. Data includes change in hospitalizations, change in intubations, daily discharges, and number of deaths. As well as total 
+hospitalization percentages in NYC vs. Long Island vs. Downstate vs. Upstate. 
+Only data reported in the briefing is populated, not all data is populated.
+
+| Column                      | Description
+| ---                         | ---
+| `date`                  | Date of report, formatted `MM/DD/YY`
+| `total_new_hospitalizations`                       | Number of new hospitalizations each day in NYS. "Total New Hospitalizations" as reported in the daily briefing. New hospitalizations each day in the state of New York.
+| `change_in_daily_icu_admissions`                     | Number of new ICU admissions each day. "Change in Daily ICU Admissions" as reported in the briefing. Positive number indicates an increase in total admits.
+| `change_in_daily_intubations`                     | Number of new intubations each day. "Change in Daily Intubations" as reported in the briefing. 
+| `change_in_daily_discharge`                      | Number of new discharges each day. "Change in Daily Discharged" as reported in the briefing.
+| `number_of_deaths`                     | Number of deaths each day. "Number of Deaths" as reported in the briefing. 
+| `percent_TOTAL_hospitalized_in_nyc`                    | Percentage of total hospitalizations that were in New York City, rounded.
+| `percent_TOTAL_hospitalized_in_long_island`   | Percentage of total hospitalizations that were in Long Island, rounded.
+| `percent_TOTAL_hospitalized_in_westchester_and_rockland`                     | Percentage of total hospitalizations that were in Westchester and Rockland, rounded.
+| `percent_TOTAL_hospitalized_in_rest_NYS`      | Percentage of total hospitalizations that were in the rest of New York State. This includes all hospitalizations in New York State outside of NYC, Long Island, Westchester, and Rockland, rounded. 
+
+
+
+
