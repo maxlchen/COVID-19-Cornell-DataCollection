@@ -11,6 +11,7 @@ pandas = "*"
 requests = "*"
 tabula-py = "*"
 tqdm = "*"
+pytesseract = "*"
 
 [requires]
 python_version = "3.7"
