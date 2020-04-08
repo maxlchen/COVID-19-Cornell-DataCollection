@@ -74,7 +74,7 @@ TODO:
 - [ ] Gather aggregate data for entire country
 
 | Field Name               | Description                            | Format                       | Example             |
-|-----------------------------|-----------------------------------|----------------------------------------|-------------------------------|---------------------|
+|-----------------------------|-----------------------------------|----------------------------------------|-------------------------------|
 | **data**                        |  Date of notification                   | YYYY-MM-DD HH:MM:SS (ISO 8601) Ora italiana | 2020-03-05 12:15:45 |
 | **stato**                       |  Country of reference                   | XYZ (ISO 3166-1 alpha-3)      | ITA                 |
 | **codice_regione**              | Code of the Region (ISTAT 2019)        | Number                        | 13                  |
