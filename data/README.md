@@ -186,3 +186,27 @@ Source: https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000121431_00086.html
 | `pending_symptoms`    | Total number of patients waiting to be determined as symptomatic or asymptomatic
 | `recovered`           | Cumulative total of patients who were admitted to hospital and subsequently released
 | `deceased`            | Cumulative total of deaths
+
+
+## **Laboratory-Confirmed COVID-19-Associated Hospitalizations**
+
+
+https://gis.cdc.gov/grasp/COVIDNet/COVID19_3.html
+
+Click "Download Data", then "Custom Download", click "Surveillance Area", and select an area (i.e. "--New York"). Finally, click Select All Age Groups.
+
+COVID-19Surveillance_EIP_New_York_Data.csv updated March 28, 2020:
+
+
+| Column                                      | Description                                                                                                                                             |
+|---------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------|
+| CATCHMENT                                   | Surveillance Area (in this case, New York)                                                                        										|
+| NETWORK                                     | EIP for all values                                                                                                                             			|
+| YEAR                                        | Year being reported (2020 for all)							                                                                                            |
+| MMWR-YEAR                                   | Epidemiologic Year (2020 for all)						                                                                                                |
+| MMWR-WEEK                                   | Week of the epidemiologic year (1 corresponds to the first week of 2020 with at least 4 days; 10 corresponds to Week Ending March 7, 2020).             |
+| AGE CATEGORY                                | Age Group, e.g. 0-4 yr or 65+ year 																									                    |
+| CUMULATIVE RATE                             | The Cumulative Rate of Hospitalization of all weeks up until this row's MMWR-WEEK                                    									|
+| WEEKLY RATE                            	  | The Rate of Hospitalization of this row's MMWR-WEEK                                																		|
+
+
