@@ -1,4 +1,4 @@
-date,patients,non_serious,ventilator_icu,pending_diagnosis,waiting,pending_sympotms,recovered,deceased
+date,patients,non_serious,ventilator_icu,pending_diagnosis,waiting,pending_symptoms,recovered,deceased
 2020-04-07,3204,1703,80,414,35,972,622,80
 2020-04-06,2989,1619,79,386,20,885,592,73
 2020-04-05,2617,1453,70,373,13,708,584,70
