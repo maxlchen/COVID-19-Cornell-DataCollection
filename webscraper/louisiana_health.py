@@ -13,6 +13,8 @@ import pandas as pd
 from PIL import Image, ImageFile
 from tqdm import tqdm
 
+# ventilator data only back to 3/25
+MIN_DATE = dt.datetime.strptime("2020-03-26", "%Y-%m-%d")
 ImageFile.LOAD_TRUNCATED_IMAGES = True
 
 
@@ -32,6 +34,16 @@ def _get_image_links():
     return images
 
 
+def _parse_timestamp(link):
+    """
+    Parse timestamp from URL
+    """
+    # parse date of screenshot
+    date, time = re.findall(r"\d+", link)
+    timestamp = dt.datetime.strptime(date + time, "%Y%m%d%H%M%S")
+    return timestamp
+
+
 def _get_patient_data(link):
     """
     Get number of hospitalizations & patients on ventilators
@@ -39,10 +51,6 @@ def _get_patient_data(link):
     response = requests.get(link)
     img = Image.open(BytesIO(response.content))
     data = pytesseract.image_to_data(img, output_type=pytesseract.Output.DICT)
-
-    # parse date of screenshot
-    date, time = re.findall(r"\d+", link)
-    timestamp = dt.datetime.strptime(date + time, "%Y%m%d%H%M%S")
 
     # only use text in top right
     boxes = list(zip(*[data[k] for k in ("left", "top", "width", "height")]))
@@ -70,7 +78,7 @@ def _get_patient_data(link):
         num_ventilators = None
 
     return {
-        "timestamp": str(timestamp),
+        "timestamp": str(_parse_timestamp(link)),
         "num_hospitalized": num_hospitalized,
         "num_ventilators": num_ventilators,
     }
@@ -80,19 +88,25 @@ def main():
     """
     Scrape all data
     """
+    # read current file
+    root = os.path.dirname(os.path.abspath(__file__))
+    name = "louisiana_health.csv"
+    path = os.path.join(root, os.pardir, "data", name)
+    current = pd.read_csv(path).to_dict("records")
+
     links = _get_image_links()
     data = []
     for link in tqdm(links):
-        result = _get_patient_data(link)
-        print(result)
-        data.append(result)
+        timestamp = _parse_timestamp(link)
+        if timestamp <= MIN_DATE:
+            break
+        if str(timestamp) not in [r["timestamp"] for r in current]:
+            result = _get_patient_data(link)
+            current.append(result)
 
-    # write to csv
-    today = dt.date.today()
-    root = os.path.dirname(os.path.abspath(__file__))
-    name = "louisiana_health_{}.csv".format(today)
-    path = os.path.join(root, os.pardir, "data", name)
-    pd.DataFrame(data).to_csv(path, index=False)
+    # re-write to csv
+    update = pd.DataFrame(current).sort_values("timestamp")
+    update.to_csv(path, index=False)
 
 
 if __name__ == "__main__":
