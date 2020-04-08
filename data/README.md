@@ -136,7 +136,7 @@ Pdf file has more data than what is on table, but the table has the more importa
 | `Duration of advanced respiratory support`      | Average # of days patient received advanced respiratory support
 | `Duration of total respiratory support`         | Average # of days patient received advanced + basic respiratory support
 
-**Louisiana Department of Health**
+## **Louisiana Department of Health**
 
 Screenshots via https://covidtracking.com/data/state/louisiana
 
