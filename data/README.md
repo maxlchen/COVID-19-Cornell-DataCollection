@@ -171,5 +171,18 @@ Only data reported in the briefing is populated, not all data is populated.
 | `percent_TOTAL_hospitalized_in_rest_NYS`      | Percentage of total hospitalizations that were in the rest of New York State. This includes all hospitalizations in New York State outside of NYC, Long Island, Westchester, and Rockland, rounded. 
 
 
+## **Japanese Ministry of Health, Labour, & Welfare**
 
+Source: https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000121431_00086.html
 
+| Column                | Description
+| ---                   | ---
+| `date`                | Date of report, formatted `YYYY-MM-DD`
+| `patients`            | Total number of current patients: this is the sum of `non_serious`, `ventilator_icu`, `pending_diagnosis`, `waiting`, and `pending_symptoms`
+| `non_serious`         | Total number of current patients with light to moderate symptoms
+| `ventilator_icu`      | Total number of current patients on ventilator or in ICU
+| `pending_diagnosis`   | Total number of current patients with symptoms but pending categorization into two preceding categories
+| `waiting`             | Total number of patients waiting to be admitted to hospital
+| `pending_symptoms`    | Total number of patients waiting to be determined as symptomatic or asymptomatic
+| `recovered`           | Cumulative total of patients who were admitted to hospital and subsequently released
+| `deceased`            | Cumulative total of deaths
