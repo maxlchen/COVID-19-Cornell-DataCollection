@@ -1,0 +1,26 @@
+case_num,last_update_date,onset_date,sex,age_group,transmission,is_hospitalized,ICU,is_dead,prev_is_hospitalized,prev_ICU,prev_death
+1,4/7/2020,1/17/2020,female,50-59,travel exposure,yes,no,no,no change,no change,no change
+2,4/7/2020,1/22/2020,female,40-49,travel exposure,yes,not stated,no,no change,no change,no change
+3,4/7/2020,1/24/2020,male,20-29,travel exposure,no,no,no,no change,no change,no change
+4,4/7/2020,1/27/2020,male,50-59,travel exposure,yes,yes,no,no change,no change,no change
+5,4/7/2020,1/15/2020,female,30-39,travel exposure,no,not stated,no,no change,no change,no change
+6,4/7/2020,1/24/2020,male,20-29,travel exposure,no,not stated,no,no change,no change,no change
+7,4/7/2020,2/9/2020,male,30-39,travel exposure,no,no,not stated,no change,no change,no change
+8,4/7/2020,2/14/2020,male,30-39,travel exposure,yes,no,not stated,no change,no change,no change
+9,4/7/2020,2/5/2020,male,20-29,travel exposure,no,no,no,no change,no change,no change
+10,4/7/2020,2/18/2020,female,40-49,community exposure,no,no,not stated,no change,no change,no change
+11,4/7/2020,3/21/2020,male,0-19,community exposure,yes,yes,no,no change,no change,no change
+12,4/7/2020,2/24/2020,female,50-59,travel exposure,no,no,no,no change,no change,no change
+13,4/7/2020,2/25/2020,male,60-69,travel exposure,no,no,not stated,no change,no change,no change
+14,4/7/2020,2/25/2020,male,30-39,travel exposure,no,no,no,no change,no change,no change
+15,4/7/2020,2/24/2020,male,50-59,travel exposure,no,no,no,no change,no change,no change
+16,4/7/2020,2/26/2020,female,60-69,travel exposure,no,no,no,no change,no change,no change
+17,4/7/2020,2/28/2020,female,40-49,travel exposure,no,no,no,no change,no change,no change
+18,4/7/2020,2/27/2020,female,50-59,travel exposure,no,no,no,no change,no change,no change
+19,4/7/2020,2/21/2020,female,60-69,travel exposure,no,no,no,no change,no change,no change
+20,4/7/2020,2/14/2020,male,70-79,travel exposure,no,no,no,no change,no change,no change
+21,4/7/2020,2/20/2020,female,80 or older,travel exposure,no,no,no,no change,no change,no change
+22,4/7/2020,2/26/2020,female,60-69,travel exposure,no,no,no,no change,no change,no change
+23,4/7/2020,2/23/2020,male,60-69,travel exposure,yes,yes,not stated,no change,no change,no change
+24,4/7/2020,2/25/2020,male,70-79,travel exposure,no,no,no,no change,no change,no change
+25,4/7/2020,2/22/2020,male,70-79,travel exposure,no,no,no,no change,no change,no change
