@@ -230,3 +230,9 @@ Offers per-patient level data
 | `prev_ICU`           | Whether or not patient's ICU status has changed, and if so, from what
 | `prev_is_deceased`            | Whether or not patient's life status has changed, and if so, from what
 
+## **CovidTracking**
+
++ Source: https://covidtracking.com/api/v1/states/daily.csv
++ Raw: `covid_tracking_states_daily.csv`
+
+**TODO**: Table for columns 

@@ -1,2 +1,7 @@
 __pycache__
 .vscode/
+
+# Magd Compatibility poetry vs. pipenv
+poetry.lock
+.python-version
+pyproject.toml
