@@ -47,11 +47,7 @@ def _parse_group(header, group):
     # remove superscript numbers
     header = "".join(re.findall(r"[a-zA-Z50 ]", header))
     group = group.replace("-", "").strip()
-    if (
-        group in "Total" 
-        or group == "Number of Confirmed Cases"
-        or group == "Deaths"
-    ):
+    if group in "Total" or group == "Number of Confirmed Cases" or group == "Deaths":
         return {}
 
     # stratified by age
@@ -256,8 +252,10 @@ def _read_table(report, date):
                 "eaths": "Deaths",
             }
             table.replace(errors, inplace=True)
-            first = (table[0].isin(["Age Group", "Number of Confirmed Cases", "Total"])).idxmax()
-            table = table.copy()[first: ]
+            first = (
+                table[0].isin(["Age Group", "Number of Confirmed Cases", "Total"])
+            ).idxmax()
+            table = table.copy()[first:]
             table = table[table[0] != "Median Age (Range)"]
 
             table = table.infer_objects()
@@ -282,7 +280,7 @@ def _read_all_tables(date):
     rows = []
     for report, formatter in reports.items():
         table = _read_table(report, date)
-        if len(table):   
+        if len(table):
             rows += formatter(table, date)
 
     # merge rows with same keys
@@ -309,10 +307,8 @@ def _parse_args(args):
         type=lambda s: dt.datetime.strptime(s, "%Y-%m-%d").date(),
         default=dt.date.today(),
     )
-    parser.add_argument(
-        "--backfill",
-        action="store_true",
-    )
+    parser.add_argument("--backfill", action="store_true")
+    parser.add_argument("--update", action="store_true")
     return parser.parse_args(args)
 
 
@@ -339,10 +335,20 @@ def main(args=None):
             except Exception:
                 break
 
-    # write to csv
+    # append to existing data
     root = os.path.dirname(os.path.abspath(__file__))
+    data_dir = os.path.join(root, os.pardir, "data")
+
+    if args.update:
+        name = max([f for f in os.listdir(data_dir) if f.startswith("nyc")])
+        path = os.path.join(data_dir, name)
+        current = pd.read_csv(path).to_dict("records")
+        data = current + data
+        os.remove(path)
+
+    # write to csv
     name = "nyc_daily_health_{}.csv".format(args.date)
-    path = os.path.join(root, os.pardir, "data", name)
+    path = os.path.join(data_dir, name)
     pd.DataFrame(data).to_csv(path, index=False)
 
 
