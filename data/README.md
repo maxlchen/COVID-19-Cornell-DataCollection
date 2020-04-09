@@ -209,4 +209,24 @@ COVID-19Surveillance_EIP_New_York_Data.csv updated March 28, 2020:
 | CUMULATIVE RATE                             | The Cumulative Rate of Hospitalization of all weeks up until this row's MMWR-WEEK                                    									|
 | WEEKLY RATE                            	  | The Rate of Hospitalization of this row's MMWR-WEEK                                																		|
 
+## **Public Health Agency of Canada**
+
+Source: https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1310076601
+
+Offers per-patient level data
+
+| Column                | Description
+| ---                   | ---
+| `case_num`                | Case number for patient
+| `last_update_date`            | The date of the last update to the case
+| `onset_date`         | The earliest date available from the following series: Symptom Onset Date, Specimen Collection Date, Laboratory Testing Date, PHAC Reported Date
+| `sex`      | Gender of patient
+| `age_group`   | Age group the patient falls under
+| `transmission`             | Method in which the patient contracted COVID-19
+| `is_hospitalized`    | Whether patient is hospitalized
+| `ICU`           | Whether patient is in the intensive care unit (ICU)
+| `is_deceased`            | Whether the patient is deceased
+| `prev_is_hospitalized`    | Whether or not patient's hospitalization status has changed, and if so, from what
+| `prev_ICU`           | Whether or not patient's ICU status has changed, and if so, from what
+| `prev_is_deceased`            | Whether or not patient's life status has changed, and if so, from what
 

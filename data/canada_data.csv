@@ -1,4 +1,4 @@
-case_num,last_update_date,onset_date,sex,age_group,transmission,is_hospitalized,ICU,is_dead,prev_is_hospitalized,prev_ICU,prev_death
+case_num,last_update_date,onset_date,sex,age_group,transmission,is_hospitalized,ICU,is_deceased,prev_is_hospitalized,prev_ICU,prev_is_deceased
 1,4/7/2020,1/17/2020,female,50-59,travel exposure,yes,no,no,no change,no change,no change
 2,4/7/2020,1/22/2020,female,40-49,travel exposure,yes,not stated,no,no change,no change,no change
 3,4/7/2020,1/24/2020,male,20-29,travel exposure,no,no,no,no change,no change,no change
