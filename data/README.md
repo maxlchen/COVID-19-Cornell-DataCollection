@@ -155,7 +155,7 @@ Sources:
 Data scraped from NY Governor Andrew Cuomo's daily briefings.
 All data is for the state of New York, unless explictly stated. Data includes change in hospitalizations, change in intubations, daily discharges, and number of deaths. As well as total 
 hospitalization percentages in NYC vs. Long Island vs. Downstate vs. Upstate. 
-Only data reported in the briefing is populated, not all data is populated.
+Only data reported in the briefing is populated, not all data is populated. This is manually curated on a relatively active basis
 
 | Column                      | Description
 | ---                         | ---

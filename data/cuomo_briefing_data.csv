@@ -1,4 +1,4 @@
-date,total_new_hospitalizations,change_in_daily_icu_admissions,change_in_daily_intubations,change_in_daily_discharge,number_of_deaths,percent_TOTAL_hospitalized_in_nyc,percent_TOTAL_hospitalized_in_long_island,percent_TOTAL_hospitalized_in_westchester_and_rockland,percent_TOTAL_hospitalized_in_rest_NYS
+date,change_in_total_hospitalizations,change_in_daily_icu_admissions,change_in_daily_intubations,change_in_daily_discharge,number_of_deaths,percent_TOTAL_hospitalized_in_nyc,percent_TOTAL_hospitalized_in_long_island,percent_TOTAL_hospitalized_in_westchester_and_rockland,percent_TOTAL_hospitalized_in_rest_NYS
 03/16/20,91,,,,,71,17,8,4
 03/17/20,170,46,43,,,70,17,8,5
 03/18/20,121,33,27,123,,70,17,8,5
@@ -19,6 +19,9 @@ date,total_new_hospitalizations,change_in_daily_icu_admissions,change_in_daily_i
 04/02/20,1427,335,260,1452,562,65,22,7,5
 04/03/20,1095,395,351,1592,630,65,22,7,5
 04/04/20,573,250,316,1709,594,65,22,7,5
-04/05/20,358,128,132,1179,599,,,,
-04/06/20,656,89,69,1224,731,,,,
-04/07/20,,,,,,,,,
+04/05/20,358,128,132,1179,599,,65,7,6
+04/06/20,656,35,69,1224,731,65,22,7,6
+04/07/20,586,302,94,,779,65,22,7,6
+04/08/20,200,84,88,,799,64,22,8,6
+04/09/20,290,-17,109,,777,64,22,8,6
+04/10/20,85,101,-26,,783,64,22,8,6
