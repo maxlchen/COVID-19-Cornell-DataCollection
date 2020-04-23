@@ -1,0 +1,15 @@
+,Patients,"Patients receiving advanced support,",Patients receiving basic support,"Outcome, length of stay for critical care (in days)","Outcome, length of stay for receiving advanced respiratory support ",Discharged alive from critical care,Dead from critical care
+Age mean (SD),59.5 (12.6),61.3 (12.8),61.5 (12.0),,,,
+Age median (IQR),"60 (52, 68)","63 (54,71)","63 (55,70)",,,,
+Female,1556,484 (27.0),137 (24.6),,,454,374
+Male,4018,1210 (73.0),421 (75.4),,,983,1124
+No assistance,4744,1575,495,,,1263,1252
+Some assistance,355,146,51,,,,
+Total assistance,13,4,3,,,,
+Ventilated in 24h,3230,1441,441,,,,
+Alive,,,,1437,586,,
+Dead,,,,1499,1209,,
+Survivor,,,,5,9,,
+Non-survivor,,,,6,7,,
+Duration of advanced respiratory support,,,,7,,,
+Duration of total respiratory support,,,,6,8,,
